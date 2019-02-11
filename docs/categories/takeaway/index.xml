@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takeaway on Titi</title>
+    <link>/categories/takeaway/</link>
+    <description>Recent content in Takeaway on Titi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/takeaway/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crypto Loans</title>
+      <link>/posts/crypto-loans/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/crypto-loans/</guid>
+      <description>As a result of the crypto bear market in 2018, many crypto-based companies are illiquid. Among these companies are crypto-mining firms and startups which raised funds in the form of digital coins. Most crypto holders don’t want to sell their digital tokens at these depressed prices and are expecting a rebound in the market. There is a new breed of startups: crypto loan companies, which aim at providing liquidity to the crypto market space.</description>
+    </item>
+    
+  </channel>
+</rss>

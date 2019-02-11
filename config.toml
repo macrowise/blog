@@ -1,0 +1,62 @@
+baseURL = "/"
+title = "Titi"
+theme = "hugo-titi"
+publishDir = "docs"
+disqusShortname = "macrowise"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[menu]
+  [[menu.nav]]
+    name = "Provoking Thiking"
+    url = "/provoking-thinking"
+    weight = 1
+  [[menu.nav]]
+    name = "Takeaway"
+    url = "/takeaway"
+    weight = 2
+  [[menu.nav]]
+    name = "Subscribe"
+    url = "#susbscribe"
+    weight = 3
+
+[params]
+  # SEO general site description
+  description = "know about macro econonomy and crypto"
+
+  # Custom css and js
+  css = ['lideres.css']
+  js = []
+
+  # External css and js
+  [params.vendors]
+    css = []
+    js = []
+
+  [params.fonts]
+    headings = "Patua One"
+
+  [params.nav]
+    bg = "#ffffff"
+    color = "#e23b3b"
+    logo = "images/logo-macrowise.png"
+    logoWidth = "150px"
+    # Optional, true by default
+    # fixed = true
+
+  [[params.social]]
+    icon = "twitter"
+    url = "https://twitter.com/macrowise"
+  [[params.social]]
+    icon = "facebook"
+    url = "https://www.facebook.com/datasketch/"
+  [[params.social]]
+    icon = "instagram"
+    url = "https://www.instagram.com/datasketch/"
+
+  [params.footer]
+    text = "Copyright © 2019 Macrowise. All rights reserved."
+    bg = "#1d3b4a"
+    color = "#8e9da5"
