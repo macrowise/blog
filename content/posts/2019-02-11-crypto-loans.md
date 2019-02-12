@@ -7,8 +7,6 @@ categories: ["Takeaway"]
 tags: []
 images:
 - /images/cover.jpg
-description: Loans backed with digital assets are taking the crypto space by storm.
-highlight: '#F1A208'
 sources:
   press:
     - https://cointelegraph.com/news/unconfirmed-novogratzs-galaxy-digital-to-raise-250-million-to-offer-crypto-loans
@@ -18,7 +16,7 @@ sources:
     - https://www.businessinsider.com/galaxy-digital-is-raising-a-credit-fund-for-crypto-companies-2019-1?IR=T
     - https://www.bloomberg.com/news/articles/2019-01-02/thriving-on-bitcoin-s-bust-lenders-aid-both-fanatics-and-shorts
     - https://www.coindesk.com/crypto-backed-loan-provider-salt-expands-to-35-us-states
-  videos:
+  video:
     - https://www.youtube.com/watch?v=4_Yt60SYaP0&t=749s 
     - https://www.youtube.com/watch?v=M-335RjBNdU 
 companies:
@@ -29,12 +27,13 @@ companies:
   - ETHLend (LEND)
   - Sweetbridge (SWC)
   - MoneyToken (IMT)
-
-key_concepts:
+concepts:
   - Crypto Bear Market
   - Crypto Loan Company
   - Crypto Lending Market Place
   - Bitcoin-backed loan platforms
+description: Loans backed with digital assets are taking the crypto space by storm.
+highlight: '#F1A208'
 
 ---
 

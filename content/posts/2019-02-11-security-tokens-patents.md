@@ -1,8 +1,8 @@
 ---
-title: Templum markets and IPWe to launch a patent STO
-author: Guillermo Valencia
+title: Security tokens and the promise to democratize the patents industry
+author: Diego Puerto
 date: '2019-02-11'
-slug: crypto-loans
+slug: security-tokens-patents
 categories: ["Takeaway"]
 tags: ["Custody","Loans"]
 images:
@@ -13,7 +13,6 @@ sources:
     - https://www.businessinsider.com/templum-markets-launches-digital-securities-for-patent-portfolios-2019-1
     - https://www.securities.io/templum-markets-and-ipwe-to-develop-patent-finance-market/ 
     - https://www.prnewswire.com/news-releases/templum-markets-and-ipwe-launch-patent-finance-market-for-fortune-global-500-companies-and-smes-300782316.html 
-  articles:
     - https://www.cnbc.com/2018/01/12/buying-bitcoin-led-patent-millionaire-to-even-bigger-investing-idea.html 
     - https://www.wipo.int/portal/en/index.html 
   video:
@@ -22,8 +21,7 @@ companies:
   - Templum Markets
   - IPWe
 concepts:
-description: La cocina de Colombia alcanza 700 recetas, lo que la hace más rica y
-  diversa que la mexicana y peruana. Conoce lo que dicen los expertos de estas recetas.
+description: A completely illiquid and obscure market could get democratized through Security Tokens.
 highlight: '#F1A208'
 
 ---
