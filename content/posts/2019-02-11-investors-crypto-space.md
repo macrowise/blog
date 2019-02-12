@@ -7,8 +7,6 @@ categories: ["Takeaway"]
 tags: []
 images:
 - /images/cover.jpg
-description: 2019 is definitely the year in which institutional investors capital is flowing into the crypto space.
-highlight: '#F1A208'
 sources:
   press:
     - https://www.coindesk.com/what-we-learned-in-100-crypto-asset-talks-with-institutional-investors?msg=You+were+successfully+subscribed
@@ -20,15 +18,16 @@ sources:
     - https://coingape.com/goldman-sachs-galaxy-digital-ventures-faith-in-bitgo/
     - https://coingape.com/institutional-investors-cryptocurrency-investments/
     - https://hackernoon.com/state-of-cryptocurrency-custody-2933776835a2
-  videos:
+  video:
     - https://www.youtube.com/watch?v=jTVQWOxVX4M
 companies:
   - Nasqad Inc.
   - BitGo
   - Coinbase
   - Fidelity Investments (FRM LLC)
-
-key_concepts:
+concepts:
+description: 2019 is definitely the year in which institutional investors capital is flowing into the crypto space.
+highlight: '#F1A208'
 
 ---
 

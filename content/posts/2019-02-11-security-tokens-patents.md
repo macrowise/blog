@@ -21,7 +21,7 @@ sources:
 companies:
   - Templum Markets
   - IPWe
-concepts
+concepts:
 description: La cocina de Colombia alcanza 700 recetas, lo que la hace más rica y
   diversa que la mexicana y peruana. Conoce lo que dicen los expertos de estas recetas.
 highlight: '#F1A208'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loans on Titi</title>
+    <link>/tags/loans/</link>
+    <description>Recent content in Loans on Titi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/loans/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Templum markets and IPWe to launch a patent STO</title>
+      <link>/posts/crypto-loans/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/crypto-loans/</guid>
+      <description>The current patent and intellectual property (IP) market is very opaque. Many manual processes and middlemen make it a cumbersome and not attractive market. According to the World Intellectual Property Organization, the IP market is worth $180 billion annually. IPWe is creating the first global online patent marketplace where companies can license, sell and acquire patents. IPWe platform uses blockchain to store patents and transactions over patents. IPWe uses artificial intelligence to allow customers make smart searches within the entire patent register.</description>
+    </item>
+    
+  </channel>
+</rss>

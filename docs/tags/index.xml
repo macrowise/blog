@@ -5,10 +5,28 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Titi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Custody</title>
+      <link>/tags/custody/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/custody/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loans</title>
+      <link>/tags/loans/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/loans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Plot</title>
