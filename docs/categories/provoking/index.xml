@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Provoking on Titi</title>
+    <link>/categories/provoking/</link>
+    <description>Recent content in Provoking on Titi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/provoking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Long Will the Crypto Winter Last?</title>
+      <link>/posts/how-long-will-crypto-winter-last/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-long-will-crypto-winter-last/</guid>
+      <description>Crypto startups are currently enduring one of the harshest winters. Tourists are out and only the true believers of the blockchain technology have dug in for hibernation. For the real builders, 3 questions are quintessential to their developments:
+ What is the Bitcoin bottom? What is the trigger for next bull market in Bitcoin? Is Bitcoin really the next big thing or the most overstated technology ever?  We don&amp;rsquo;t know exactly the bottom, but we have an idea for timing.</description>
+    </item>
+    
+  </channel>
+</rss>
