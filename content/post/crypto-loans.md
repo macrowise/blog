@@ -33,8 +33,6 @@ concepts:
   - Crypto Lending Market Place
   - Bitcoin-backed loan platforms
 description: Loans backed with digital assets are taking the crypto space by storm.
-highlight: '#F1A208'
-
 ---
 
 - As a result of the crypto bear market in 2018, many crypto-based companies are illiquid. Among these companies are crypto-mining firms and startups which raised funds in the form of digital coins.

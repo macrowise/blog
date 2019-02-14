@@ -22,8 +22,6 @@ companies:
   - IPWe
 concepts:
 description: A completely illiquid and obscure market could get democratized through Security Tokens.
-highlight: '#F1A208'
-
 ---
 
 - The current patent and intellectual property (IP) market is very opaque. Many manual processes and middlemen make it a cumbersome and not attractive market.

@@ -27,8 +27,6 @@ companies:
   - Fidelity Investments (FRM LLC)
 concepts:
 description: 2019 is definitely the year in which institutional investors capital is flowing into the crypto space.
-highlight: '#F1A208'
-
 ---
 
 - Overall, institutional investors are positive about crypto assets.
