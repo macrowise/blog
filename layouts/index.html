@@ -2,10 +2,48 @@
 	<div class="home-intro background" style="background-image: url(/images/home-bg.jpg)">
 		<div class="container my-auto">
 			<div class="home-headline">
-				<h1 class="home-headline-text">Focus on the <span class="headline-highlight">signal</span>,</h1>
-				<h1 class="home-headline-text">avoid the noise<span class="headline-highlight">.</span></h1>
+				<h1 class="home-headline-text bg-blue text-white">Focus on the <span class="text-scarlet">signal</span>,</h1>
+				<h1 class="home-headline-text bg-blue text-white">avoid the noise<span class="text-scarlet">.</span></h1>
 			</div>
 			<p class="home-description">We are the intersection between digital assets and global megatrends. Quick takeaways, provoking thinking and actionable ideas.</p>
 		</div>
 	</div>
+	<div class="category bg-porcelain">
+		<img src="/images/icons/provoking_icon.svg" alt="" class="category-icon">
+		<div class="container-sm">
+			<h2 class="category-name serif text-blue">Provoking thinking</h2>
+			<p class="category-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
+			<div class="category-posts">
+				{{ range last 2 .Site.Taxonomies.categories.provoking }}
+					<div class="category-post serif">
+						<h3 class="category-post__title text-blue">{{ .Title }}</h3>
+						<p class="category-post__description">{{ .Description }}</p>
+						<a href="{{ .Permalink }}" class="bg-scarlet text-white">Read more</a>
+					</div>
+				{{ end }}
+			</div>
+			<p class="text-center category-all">
+				<a href="/categories/provoking" class="bg-blue text-white serif">See all articles</a>
+			</p>
+		</div>
+	</div>
+	<div class="category bg-scarlet">
+			<img src="/images/icons/takeaway_icon.svg" alt="" class="category-icon">
+			<div class="container-sm">
+				<h2 class="category-name serif text-white">Takeaways</h2>
+				<p class="category-description text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
+				<div class="category-posts">
+					{{ range last 2 .Site.Taxonomies.categories.takeaway }}
+						<div class="category-post serif">
+							<h3 class="category-post__title">{{ .Title }}</h3>
+							<p class="category-post__description">{{ .Description }}</p>
+							<a href="{{ .Permalink }}" class="bg-blue text-white">Read more</a>
+						</div>
+					{{ end }}
+				</div>
+				<p class="text-center category-all">
+					<a href="/categories/takeaway" class="bg-white text-scarlet serif">See all articles</a>
+				</p>
+			</div>
+		</div>
 {{ end }}

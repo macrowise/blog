@@ -2,7 +2,7 @@
 	{{ if .Params.images }}
 		<div class="post-header background" style="background-image: url({{ index .Params.images 0 }})">
 			<div class="post-title my-auto container-sm">
-				<h1 class="post-title-text">{{ .Title }}</h1>
+				<h1 class="post-title-text text-white">{{ .Title }}</h1>
 			</div>
 		</div>
 	{{ else }}
@@ -20,34 +20,64 @@
 		<div class="post-content">
 			{{ .Content }}
 		</div>
-		{{ if .Params.tags }}
-			<h2 class="post-section-title">Tags</h2>
-			<div class="tags">
-				{{ $tags := "tags" }}
-				{{ range .Param $tags }}
-					{{ $name := . }}
-					{{ with $.Site.GetPage (printf "/%s/%s" $tags ($name | urlize)) }}
-						<div class="tag"><a href="{{ .Permalink }}">{{ $name }}</a></div>
+		{{ if .Params.companies }}
+			<div class="post-section">
+				<h2 class="post-section-title text-blue">Companies</h2>
+				<div class="post-section-columns">
+					{{ range .Params.companies }}
+						<p class="source-item">
+							<span class="source-item-bullet"></span>
+							<span>{{ . }}</span>
+						</p>
 					{{ end }}
-				{{ end }}
+				</div>
+			</div>
+		{{ end }}
+		{{ if .Params.concepts }}
+			<div class="post-section">
+				<h2 class="post-section-title text-blue">Key concepts</h2>
+				<div class="post-section-columns">
+					{{ range .Params.concepts }}
+						<p class="source-item">
+							<span class="source-item-bullet"></span>
+							<span>{{ . }}</span>
+						</p>
+					{{ end }}
+				</div>
+			</div>
+		{{ end }}
+		{{ if .Params.tags }}
+			<div class="post-section">
+				<h2 class="post-section-title text-blue">Tags</h2>
+				<div class="tags">
+					{{ $tags := "tags" }}
+					{{ range .Param $tags }}
+						{{ $name := . }}
+						{{ with $.Site.GetPage (printf "/%s/%s" $tags ($name | urlize)) }}
+							<div class="tag"><a href="{{ .Permalink }}" class="text-white">{{ $name }}</a></div>
+						{{ end }}
+					{{ end }}
+				</div>
 			</div>
 		{{ end }}
 		{{ if .Params.sources }}
-			<h2 class="post-section-title">Sources</h2>
-			<div class="sources">
-				{{ range $source, $values := .Params.sources }}
-					<div class="source">
-						<h3 class="source-title">{{ $source | humanize }}</h3>
-						<div class="source-items">
-							{{ range $item := $values }}
-								<p class="source-item">
-									<span class="source-item-bullet"></span>
-									<a href="{{ $item.url }}" target="_blank">{{ $item.name }}</a>
-								</p>
-							{{ end }}
+			<div class="post-section">
+				<h2 class="post-section-title text-blue">Sources</h2>
+				<div class="sources">
+					{{ range $source, $values := .Params.sources }}
+						<div class="source">
+							<h3 class="source-title text-blue">{{ $source | humanize }}</h3>
+							<div class="source-items">
+								{{ range $item := $values }}
+									<p class="source-item">
+										<span class="source-item-bullet"></span>
+										<a href="{{ $item.url }}" target="_blank">{{ $item.name }}</a>
+									</p>
+								{{ end }}
+							</div>
 						</div>
-					</div>
-				{{ end }}
+					{{ end }}
+				</div>
 			</div>
 		{{ end }}
 		{{ template "_internal/disqus.html" . }}

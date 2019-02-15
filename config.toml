@@ -4,6 +4,9 @@ publishDir = "docs"
 disqusShortname = "macrowise"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[permalinks]
+	posts = "/:section/:slug"
+
 [params]
 	[[params.brands]]
 		name = "twitter"
