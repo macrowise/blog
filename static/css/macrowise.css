@@ -123,10 +123,20 @@ a {
 	flex-grow: 1;
 }
 
+.main-content[data-center="true"] {
+	display: flex;
+	flex-direction: column;
+	background-color: #F8F8F8;
+}
+
 .footer {
 	background-color: #1D3B4A;
 	font-family: 'PT Serif', serif;
 	padding: 0 0 10px;
+}
+
+.footer[data-hide="true"] {
+	display: none;
 }
 
 .newsletter {
@@ -408,6 +418,20 @@ a {
 	border-top-color: transparent;
 	border-bottom-color: transparent;
 	border-right-color: transparent;
+}
+
+.thanks-title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.thanks-message {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.thanks a {
+	padding: 5px 50px;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,9 +1,9 @@
-<footer class="footer background text-gray" style="background-image: url(/images/footer-bg.jpg)" id="footer">
+<footer class="footer background text-gray" style="background-image: url(/images/footer-bg.jpg)" id="footer" {{ if eq .Section "thanks" }}data-hide="true"{{ end }}>
 	<div class="container">
 		<div class="newsletter text-white">
 			<h3 class="newsletter-title">Subscribe</h3>
 			<p class="newsletter-subtitle">to our newsletter</p>
-			<form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
+			<form name="newsletter" method="POST" data-netlify="true" class="newsletter-form" action="/thanks">
 				<div class="input-group">
 					<input type="email" name="email" placeholder="E-mail address" autocomplete="off">
 					<button type="submit" class="text-white">

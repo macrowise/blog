@@ -15,7 +15,7 @@
 <body>
 	<div class="wrapper">
 		{{ partial "navbar.html" . }}
-		<div class="main-content">
+		<div class="main-content" {{ if eq .Section "thanks" }}data-center="true"{{ end }}>
 			{{ block "main" . }}{{ end }}
 		</div>
 		{{ partial "footer.html" . }}
