@@ -7,12 +7,6 @@ categories: ["Provoking"]
 tags: []
 images:
 - /images/sample-cover.jpg
-sources:
-  press:
-  books:
-  video:
-companies:
-concepts:
 description: The answers to the current challenges of democracy are not nationalism or more liberalism, but the updating of our mechanism to reach consensus.Technology will reshape the democracy of masses.
 ---
 

@@ -20,7 +20,6 @@ sources:
 companies:
   - Templum Markets
   - IPWe
-concepts:
 description: A completely illiquid and obscure market could get democratized through Security Tokens.
 ---
 

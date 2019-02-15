@@ -1,10 +1,17 @@
 {{ define "main" }}
-	{{ $image := (index .Params.images 0 )}}
-	<div class="post-header background" style="background-image: url({{ $image }})">
-		<div class="post-title my-auto container-sm">
-			<h1 class="post-title-text">{{ .Title }}</h1>
+	{{ if .Params.images }}
+		<div class="post-header background" style="background-image: url({{ index .Params.images 0 }})">
+			<div class="post-title my-auto container-sm">
+				<h1 class="post-title-text">{{ .Title }}</h1>
+			</div>
 		</div>
-	</div>
+	{{ else }}
+		<div class="post-header background">
+			<div class="post-title my-auto container-sm">
+				<h1 class="post-title-text">{{ .Title }}</h1>
+			</div>
+		</div>
+	{{ end }}
 	<div class="container-sm">
 		<div class="post-author">
 			<p class="author-name"><strong>{{ .Params.author }}</strong></p>
@@ -12,7 +19,25 @@
 		</div>
 		<div class="post-content">
 			{{ .Content }}
-			{{ template "_internal/disqus.html" . }}
 		</div>
+		{{ if .Params.sources }}
+			<h2 class="post-section-title">Sources</h2>
+			<div class="sources">
+				{{ range $source, $values := .Params.sources }}
+					<div class="source">
+						<h3 class="source-title">{{ $source | humanize }}</h3>
+						<div class="source-items">
+							{{ range $item := $values }}
+								<p class="source-item">
+									<span class="source-item-bullet"></span>
+									<a href="{{ $item.url }}" target="_blank">{{ $item.name }}</a>
+								</p>
+							{{ end }}
+						</div>
+					</div>
+				{{ end }}
+			</div>
+		{{ end }}
+		{{ template "_internal/disqus.html" . }}
 	</div>
 {{ end }}
