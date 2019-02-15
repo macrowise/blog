@@ -4,13 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>{{ .Site.Title }}</title>
+	<title>
+		{{ if .Title }}
+			{{ .Title }} | {{ .Site.Title }}
+		{{ else }}
+			{{ .Site.Title }}
+		{{ end }}
+	</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Serif" rel="stylesheet">
 	<link rel="stylesheet" href="/css/macrowise.css">
 	{{ if .Site.GoogleAnalytics }}
   	{{ template "_internal/google_analytics_async.html" . }}
 	{{ end }}
+	{{ template "_internal/opengraph.html" . }}
+	{{ template "_internal/twitter_cards.html" . }}
 </head>
 <body>
 	<div class="wrapper">

@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Macrowise"
+title = "Macrowise Blog"
 publishDir = "docs"
 disqusShortname = "macrowise"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
