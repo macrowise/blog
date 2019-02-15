@@ -20,6 +20,18 @@
 		<div class="post-content">
 			{{ .Content }}
 		</div>
+		{{ if .Params.tags }}
+			<h2 class="post-section-title">Tags</h2>
+			<div class="tags">
+				{{ $tags := "tags" }}
+				{{ range .Param $tags }}
+					{{ $name := . }}
+					{{ with $.Site.GetPage (printf "/%s/%s" $tags ($name | urlize)) }}
+						<div class="tag"><a href="{{ .Permalink }}">{{ $name }}</a></div>
+					{{ end }}
+				{{ end }}
+			</div>
+		{{ end }}
 		{{ if .Params.sources }}
 			<h2 class="post-section-title">Sources</h2>
 			<div class="sources">

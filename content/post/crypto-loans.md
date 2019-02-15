@@ -6,19 +6,7 @@ slug: crypto-loans
 categories: ["Takeaway"]
 tags: []
 images:
-- /images/cover.jpg
-sources:
-  press:
-    - https://cointelegraph.com/news/unconfirmed-novogratzs-galaxy-digital-to-raise-250-million-to-offer-crypto-loans
-    - https://cointelegraph.com/news/crypto-lenders-are-cashing-in-on-the-crypto-bear-market
-    - https://cointelegraph.com/tags/lending
-    - https://cointelegraph.com/news/crypto-lenders-are-cashing-in-on-the-crypto-bear-market
-    - https://www.businessinsider.com/galaxy-digital-is-raising-a-credit-fund-for-crypto-companies-2019-1?IR=T
-    - https://www.bloomberg.com/news/articles/2019-01-02/thriving-on-bitcoin-s-bust-lenders-aid-both-fanatics-and-shorts
-    - https://www.coindesk.com/crypto-backed-loan-provider-salt-expands-to-35-us-states
-  video:
-    - https://www.youtube.com/watch?v=4_Yt60SYaP0&t=749s 
-    - https://www.youtube.com/watch?v=M-335RjBNdU 
+- /images/sample-cover.jpg
 companies:
   - Galaxy Digital
   - BlockFi

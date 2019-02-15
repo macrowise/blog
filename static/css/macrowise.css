@@ -277,10 +277,29 @@ body {
 	width: 20px;
 }
 
+.tags {
+	display: flex;
+}
+
+.tag {
+	background: #E23B3B;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-style: italic;
+	margin: 0 10px 10px 0;
+	padding: 5px 10px;
+}
+
+.tag a {
+	color: inherit;
+	text-decoration: none;
+}
+
 .sources {
 	display: flex;
 	flex-direction: column;
 	font-family: 'PT Serif', serif;
+	margin-bottom: 20px;
 }
 
 .source {
@@ -372,6 +391,7 @@ body {
 
 	.source {
 		flex: 1;
+		margin: 0;
 	}
 
 	.source-items {
