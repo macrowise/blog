@@ -16,7 +16,7 @@
 			{{ if .Site.Params.brands }}
 				<div class="footer-brands">
 					{{ range $brand := .Site.Params.brands }}
-						<a href="{{$brand.url}}" class="footer-brands__item">
+						<a href="{{$brand.url}}" class="footer-brands-item">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x"></i>
 								<i class="fab fa-{{$brand.name}} fa-stack-1x"></i>

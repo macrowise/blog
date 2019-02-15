@@ -15,11 +15,10 @@ body {
 }
 
 /* ===== Helpers ===== */
-.container {
+.container,
+.container-sm {
 	margin: 0 auto;
-	max-width: 1200px;
-	padding: 0 30px;
-	width: 100%;
+	width: 90%;
 }
 
 .background {
@@ -76,7 +75,7 @@ body {
 	padding: 0;
 }
 
-.navbar-item_solid {
+.navbar-item-solid {
 	background-color: #E23B3B;
 	color: #F8F8F8;
 }
@@ -144,15 +143,15 @@ body {
 	justify-items: center;
 }
 
-.footer-brands__item {
+.footer-brands-item {
 	font-size: 12px;
 }
 
-.footer-brands__item .fa-circle {
+.footer-brands-item .fa-circle {
 	color: #8E9DA5;
 }
 
-.footer-brands__item .fab {
+.footer-brands-item .fab {
 	color: #1D3B4A;
 }
 
@@ -192,23 +191,89 @@ body {
 }
 
 .home-description {
-	font-family: 'PT Serif';
+	font-family: 'PT Serif', serif;
 	text-align: left;
 }
 
+/* ===== Posts ===== */
+.post-header {
+	display: flex;
+	min-height: 400px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.post-title {
+	font-size: 25px;
+}
+
+.post-title-text {
+	background: #E23B3B;
+	box-shadow: 10px 0 0 #E23B3B, -10px 0 0 #E23B3B;
+	color: #FFFFFF;
+	display: inline;
+	line-height: 1.5;
+}
+
+.post-author {
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+.post-content > * {
+	margin: 0 0 20px;
+	font-size: 18px;
+	font-family: 'PT Serif', serif;
+	line-height: 30px;
+}
+
+.post-content figure {
+	text-align: center;
+}
+
+.post-content figure img {
+	max-width: 100%;
+}
+
+.post-content h2 {
+	font-size: 22px;
+}
+
+.post-content > blockquote {
+	padding: 0 20px;
+}
+
+.post-content > blockquote p {
+	background: #E23B3B;
+	box-shadow: 5px 0 0 #E23B3B, -5px 0 0 #E23B3B, 0 5px 10px rgba(0,0,0,0.1);
+	color: #FFFFFF;
+	display: inline;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.post-content > p:first-child::first-letter {
+	color: #E23B3B;
+	font-size: 300%;
+}
+
 @media screen and (min-width: 768px) {
+	.container-sm {
+		width: 60%;
+	}
+
 	.newsletter-title {
 		font-size: 70px;
 	}
-	
+
 	.newsletter-subtitle {
 		font-size: 20px;
 	}
-	
+
 	.newsletter-form .input-group input[type="email"] {
 		font-size: 18px;
 	}
-	
+
 	.footer-info {
 		align-items: center;
 		grid-gap: 0px;
@@ -224,13 +289,17 @@ body {
 		font-size: 20px;
 		text-align: right;
 	}
+
+	.post-title {
+		font-size: 35px;
+	}
 }
 
 @media screen and (min-width: 992px) {
 	.newsletter-subtitle {
 		font-size: 25px;
 	}
-	
+
 	.newsletter-form .input-group input[type="email"] {
 		font-size: 20px;
 	}
