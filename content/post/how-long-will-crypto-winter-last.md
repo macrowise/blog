@@ -22,9 +22,7 @@ Nobody has the magic formula to determine the exact bottom. There are different 
 
 We feel that using this marginal approach is wrong.  Do prices of gold, copper or oil only reflect the marginal cost of production? We prefer to use statistical data, gathered from the daily data of the last 3 bear markets in Bitcoin, to attempt to define some investment benchmarks. Prices are the only real signals. 
 
-{{< figure src="/images/bitcoin_drawdowns.png" >}}
-
-There is on average, an average period of about 400 days for the price to recover.
+{{< figure src="/images/bitcoin_drawdowns.png" caption="There is on average, an average period of about 400 days for the price to recover." >}}
 
 {{< figure src="/images/bitcoin_halving.png" attrlink="https://www.bitcoinblockhalf.com" attr="Source: bitcoinblockhalf" >}}
 

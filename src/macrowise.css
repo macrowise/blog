@@ -79,6 +79,14 @@ a {
 .serif {
 	font-family: 'PT Serif';
 }
+
+.text-shadow {
+	text-shadow: 0 1px 1px black, -1px 0 1px black, 0 -1px 1px black;
+}
+
+.text-shadow-light {
+	text-shadow: 0 1px 0 #ffffff, -1px 0 0 #ffffff, 0 -1px 0 #ffffff;
+}
 /* ===== Site specific ===== */
 
 .wrapper {
@@ -137,6 +145,10 @@ a {
 
 .footer[data-hide="true"] {
 	display: none;
+}
+
+.footer-about {
+	margin-bottom: 100px;
 }
 
 .newsletter {
