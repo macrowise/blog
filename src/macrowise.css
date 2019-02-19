@@ -261,6 +261,7 @@ a {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 50px;
+	position: relative;
 }
 
 .category-post {
