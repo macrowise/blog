@@ -14,7 +14,6 @@
 			<h2 class="category-name serif text-blue">Provoking thinking</h2>
 			<p class="category-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
 			<div class="category-posts">
-				<div class="ribbon bg-blue text-white">Featured articles</div>
 				{{ range last 2 .Site.Taxonomies.categories.provoking }}
 					<div class="category-post serif">
 						<h3 class="category-post__title text-blue">{{ .Title }}</h3>
@@ -34,7 +33,6 @@
 				<h2 class="category-name serif text-white">Takeaways</h2>
 				<p class="category-description text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
 				<div class="category-posts">
-					<div class="ribbon bg-blue text-white">Featured articles</div>
 					{{ range last 2 .Site.Taxonomies.categories.takeaway }}
 						<div class="category-post serif">
 							<h3 class="category-post__title">{{ .Title }}</h3>
