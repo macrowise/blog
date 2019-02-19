@@ -321,9 +321,36 @@ a {
 	line-height: 1.5;
 }
 
+.post-reading-time {
+	text-align: right;
+}
+
+.post-reading-time span {
+	padding: 5px 15px;
+	position: relative;
+	font-size: 18px;
+}
+
+.post-reading-time span:before {
+	/* border is equal to span's font-size -  2 units */
+	border: 16px solid #E23B3B;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	content: '';
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-100%, -50%);
+}
+
 .post-author {
 	margin-bottom: 20px;
 	font-size: 22px;
+}
+
+.post-content {
+	margin-top: 20px;
 }
 
 .post-content > * {

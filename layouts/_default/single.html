@@ -17,6 +17,11 @@
 			<p class="author-name"><strong>{{ .Params.author }}</strong></p>
 			<p class="post-date">{{ .Date.Format "January.2.2006" }}</p>
 		</div>
+	</div>
+	<div class="post-reading-time">
+		<span class="bg-scarlet text-white serif">{{ .ReadingTime }} minutes left</span>
+	</div>
+	<div class="container-sm">		
 		<div class="post-content">
 			{{ .Content }}
 		</div>
