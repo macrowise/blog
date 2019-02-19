@@ -1,3 +1,6 @@
+import './macrowise.css'
+import MoveTo from 'moveto'
+
 const moveTo = new MoveTo()
 const footer = document.getElementById('footer')
 
