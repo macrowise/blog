@@ -12,3 +12,6 @@ if (footer) {
 	})
 }
 
+if (module.hot) {
+	module.hot.accept()
+}

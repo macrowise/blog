@@ -4,6 +4,8 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin")
 const UglifyJSWebpackPlugin = require("uglifyjs-webpack-plugin")
 const merge = require('webpack-merge')
 const path = require('path')
+const webpack = require('webpack')
+
 const isDev = process.env.NODE_ENV !== 'production'
 const resolveFromRoot = dir => {
 	return path.resolve(__dirname, dir)
@@ -48,8 +50,12 @@ const dev = merge(base, {
 	devServer: {
 		contentBase: resolveFromRoot('static'),
 		port: 1314,
-		stats: 'errors-only'
-	}
+		stats: 'errors-only',
+		hot: true
+	},
+	plugins: [
+		new webpack.HotModuleReplacementPlugin()
+	]
 })
 
 const prod = merge(base, {
