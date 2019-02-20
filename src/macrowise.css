@@ -102,6 +102,7 @@ a {
 
 .serif {
 	font-family: 'Bodoni', serif;
+	letter-spacing: -1px;
 }
 
 .text-shadow {
