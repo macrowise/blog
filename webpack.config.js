@@ -16,7 +16,8 @@ const base = {
 	entry: './main.js',
 	output: {
 		filename: 'js/main.bundle.js',
-		path: resolveFromRoot('static')
+		path: resolveFromRoot('static'),
+		publicPath: '/'
 	},
 	module: {
 		rules: [
@@ -29,6 +30,15 @@ const base = {
 						presets: ['@babel/preset-env']
 					}
 				}
+			},
+			{
+				test: /\.(woff|woff2|eot|ttf|otf)$/,
+				use: {
+					loader: 'file-loader',
+					options: {
+						name: 'fonts/[hash].[ext]'
+					}
+				}
 			}
 		]
 	}
@@ -36,9 +46,6 @@ const base = {
 
 const dev = merge(base, {
 	mode: 'development',
-	output: {
-		publicPath: '/'
-	},
 	module: {
 		rules: [
 			{

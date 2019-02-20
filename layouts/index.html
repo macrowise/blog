@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<div class="home-intro background" style="background-image: url(/images/home-bg.jpg)">
 		<div class="container my-auto">
-			<div class="home-headline">
+			<div class="home-headline serif">
 				<h1 class="home-headline-text bg-blue text-white">Focus on the <span class="text-scarlet">signal</span>,</h1>
 				<h1 class="home-headline-text bg-blue text-white">avoid the noise<span class="text-scarlet">.</span></h1>
 			</div>
@@ -15,8 +15,8 @@
 			<p class="category-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
 			<div class="category-posts">
 				{{ range last 2 (index .Site.Taxonomies.categories "provoking-thinking") }}
-					<div class="category-post serif">
-						<h3 class="category-post__title text-blue">{{ .Title }}</h3>
+					<div class="category-post">
+						<h3 class="category-post__title text-blue serif">{{ .Title }}</h3>
 						<p class="category-post__description">{{ .Description }}</p>
 						<a href="{{ .Permalink }}" class="bg-scarlet text-white">Read more</a>
 					</div>
@@ -34,8 +34,8 @@
 				<p class="category-description text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus doloremque corporis vero ratione minima. Maiores sed voluptates tempore dolore necessitatibus quam nisi, nostrum vel repellendus, adipisci voluptate qui fuga. Nostrum!</p>
 				<div class="category-posts">
 					{{ range last 2 .Site.Taxonomies.categories.takeaway }}
-						<div class="category-post serif">
-							<h3 class="category-post__title">{{ .Title }}</h3>
+						<div class="category-post">
+							<h3 class="category-post__title serif">{{ .Title }}</h3>
 							<p class="category-post__description">{{ .Description }}</p>
 							<a href="{{ .Permalink }}" class="bg-blue text-white">Read more</a>
 						</div>
