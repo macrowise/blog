@@ -3,7 +3,7 @@ title: How Long Will the Crypto Winter Last?
 author: Guillermo Valencia A.
 date: '2019-02-11'
 slug: how-long-will-crypto-winter-last
-categories: ["Provoking"]
+categories: ["Provoking Thinking"]
 tags: []
 images:
 - /images/sample-cover.jpg

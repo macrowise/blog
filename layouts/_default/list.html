@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <div class="container-sm post-list">
+        <h1 class="post-list-term serif">{{ .Data.Term | humanize }}</h1>
+        {{ range .Data.Pages }}
+            <div class="post-list-item">
+                <span class="post-list-item__date">
+                    {{ if .Params.author }}
+                        {{ .Params.author }} - {{ .Date.Format "January.2.2006" }}
+                    {{ else }}
+                        {{ .Date.Format "January.2.2006" }}
+                    {{ end }}
+                </span>
+                <h2 class="post-list-item__title serif">{{ .Title }}</h2>
+                <p class="post-list-item__description">{{ .Description }}</p>
+                <a href="{{ .Permalink }}" class="bg-blue text-white">Read more</a>
+            </div>
+        {{ end }}
+    </div>
+{{ end }}
