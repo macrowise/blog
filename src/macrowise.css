@@ -355,8 +355,7 @@ a {
 }
 
 .post-reading-time span:before {
-	/* border is equal to span's font-size -  2 units */
-	border: 16px solid #E23B3B;
+	border: 15px solid #E23B3B;
 	border-bottom-color: transparent;
 	border-left-color: transparent;
 	border-top-color: transparent;
@@ -373,7 +372,7 @@ a {
 }
 
 .post-content {
-	margin-top: 20px;
+	margin-top: 60px;
 }
 
 .post-content > * {

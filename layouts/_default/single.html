@@ -21,10 +21,7 @@
 	<div class="post-reading-time">
 		<span class="bg-scarlet text-white serif">{{ .ReadingTime }} minutes left</span>
 	</div>
-	<div class="container-sm">		
-		<div class="post-content">
-			{{ .Content }}
-		</div>
+	<div class="container-sm">
 		{{ if .Params.companies }}
 			<div class="post-section">
 				<h2 class="post-section-title text-blue">Companies</h2>
@@ -51,6 +48,9 @@
 				</div>
 			</div>
 		{{ end }}
+		<div class="post-content">
+			{{ .Content }}
+		</div>
 		{{ if .Params.tags }}
 			<div class="post-section">
 				<h2 class="post-section-title text-blue">Tags</h2>
