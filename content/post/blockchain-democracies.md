@@ -6,7 +6,7 @@ slug: blockchain-reinvention-liberal-democracies
 categories: ["Provoking Thinking"]
 tags: []
 images:
-- /images/sample-cover.jpg
+- /images/cryptocurrency-3424626_1280.jpg
 sources:
   press:
   - name: Peter Thiel on contrarian truths

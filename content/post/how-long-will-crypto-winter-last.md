@@ -6,7 +6,7 @@ slug: how-long-will-crypto-winter-last
 categories: ["Provoking Thinking"]
 tags: []
 images:
-- /images/sample-cover.jpg
+- /images/cryptocurrency-3424626_1280.jpg
 description: Crypto startups are currently enduring one of the harshest winters. Tourists are out and only the true believers of the blockchain technology have dug in for hibernation. 
 ---
 
