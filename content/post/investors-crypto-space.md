@@ -6,7 +6,7 @@ slug: investors-crypto-space
 categories: ["Takeaway"]
 tags: []
 images:
-- /images/sample-cover.jpg
+- /images/cryptocurrency-3424626_1280.jpg
 sources:
   press:
   - name: What We Learned in 100 Crypto Talks With Institutional Investors

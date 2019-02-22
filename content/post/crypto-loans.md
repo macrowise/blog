@@ -6,7 +6,7 @@ slug: crypto-loans
 categories: ["Takeaway"]
 tags: []
 images:
-- /images/sample-cover.jpg
+- /images/cryptocurrency-3424626_1280.jpg
 companies:
   - Galaxy Digital
   - BlockFi

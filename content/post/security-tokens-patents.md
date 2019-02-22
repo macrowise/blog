@@ -6,7 +6,7 @@ slug: security-tokens-patents
 categories: ["Takeaway"]
 tags: ["Custody","Loans"]
 images:
-- /images/sample-cover.jpg
+- /images/cryptocurrency-3424626_1280.jpg
 sources:
   press:
   - name: A fintech has teamed up with a patent millionaire to help Wall Street own a slice of a company's most valuable inventions
