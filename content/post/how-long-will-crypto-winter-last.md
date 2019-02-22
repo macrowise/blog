@@ -44,11 +44,11 @@ We think it is a little bit of both. We do in fact believe that security tokens,
 
 The Dutch East India Company was once the most important company in the world, holding a monopoly in the spice trade of the Indias. For comparison across eras, the Dutch East India Company at the time was greater than the market capitalization of the 20 largest modern companies. 
 
-{{< figure src="/images/voc_shares.png" caption="VOC shares were the first step towards democratizing monarchical property." >}}
+{{< figure src="/images/voc_shares.png" caption="VOC shares were the first step towards democratizing monarchical property. Source: Visual Capitalist" >}}
 
 This analogy is not only interesting because of the size and importance, but also because the Dutch East India Company minted their own coins as well.  The VOC chartered company issued a considerable series of coinage in bronze, silver and gold for its territories in the Far East between 1602 and 1799.
 
-{{< figure src="/images/voc_coins.png" caption="Coin minted by the Dutch East India Company" >}}
+{{< figure src="/images/voc_coins.png" caption="Coin minted by the Dutch East India Company. Source: Visual Capitalist" >}}
 
 Now platforms like Open Finance, BlockFi and Overstock are aiming to be the key players in the development of a more decentralized financial infrastructure through security tokenization within the blockchain ecosystem. Imagine Amazon, Facebook, Alibaba or Tencent allowing different tokens or coins to be used to make payments. 
 
