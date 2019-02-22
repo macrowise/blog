@@ -386,7 +386,7 @@ a {
 	font-size: 22px;
 	font-family: 'Bodoni', serif;
 	line-height: 30px;
-	letter-spacing: -1px;
+	letter-spacing: -0.5px;
 }
 
 .post-content figure {
