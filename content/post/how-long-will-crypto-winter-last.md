@@ -7,7 +7,7 @@ categories: ["Provoking Thinking"]
 tags: []
 images:
 - /images/sample-cover.jpg
-description: The answers to the current challenges of democracy are not nationalism or more liberalism, but the updating of our mechanism to reach consensus.Technology will reshape the democracy of masses.
+description: Crypto startups are currently enduring one of the harshest winters. Tourists are out and only the true believers of the blockchain technology have dug in for hibernation. 
 ---
 
 Crypto startups are currently enduring one of the harshest winters. Tourists are out and only the true believers of the blockchain technology have dug in for hibernation. For the real builders, 3 questions are quintessential to their developments:
