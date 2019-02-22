@@ -1,7 +1,7 @@
 ---
 title: Blockchain and the reinvention of liberal democracies 
 author: Guillermo Valencia A.
-date: '2019-02-11'
+date: '2019-02-22'
 slug: blockchain-reinvention-liberal-democracies 
 categories: ["Provoking Thinking"]
 tags: []
