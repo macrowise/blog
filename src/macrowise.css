@@ -64,6 +64,11 @@ a {
 	margin-right: 250px;
 }
 
+.my-auto-post {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
 .mx-auto {
 	margin-left: auto;
 	margin-right: auto;
