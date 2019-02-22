@@ -60,7 +60,8 @@ a {
 
 .my-auto {
 	margin-bottom: auto;
-	margin-top: auto;
+	margin-top: 350px;
+	margin-right: 250px;
 }
 
 .mx-auto {
