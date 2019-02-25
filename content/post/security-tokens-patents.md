@@ -4,7 +4,7 @@ author: Diego Puerto
 date: '2019-02-25'
 slug: security-tokens-patents
 categories: ["Takeaway"]
-tags: ["Custody","Loans"]
+tags: ["Custody","Loans", "Security Token", "Patents", "Artificial Intelligence", "Intellectual Property", "Blockchain"]
 images:
 - /images/cryptocurrency-3424626_1280.jpg
 sources:

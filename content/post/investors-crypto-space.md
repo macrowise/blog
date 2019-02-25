@@ -4,7 +4,7 @@ author: Diego Puerto
 date: '2019-02-25'
 slug: investors-crypto-space
 categories: ["Takeaway"]
-tags: []
+tags: ["Blockchain", "Cryptocurrency", "Institutional Investors", "Crypto Custodies", "KYC/AML"]
 images:
 - /images/cryptocurrency-3424626_1280.jpg
 sources:

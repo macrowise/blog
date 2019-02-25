@@ -4,7 +4,7 @@ author: Diego Puerto
 date: '2019-02-25'
 slug: crypto-loans
 categories: ["Takeaway"]
-tags: []
+tags: ["Crypto Winter", "Crypto Loan Companies", "Loans"]
 images:
 - /images/cryptocurrency-3424626_1280.jpg
 companies:
