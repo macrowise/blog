@@ -1,6 +1,7 @@
 ---
 title: Institutional investors entry to the crypto space
 author: Diego Puerto
+role: Product at Macrowise
 date: '2019-02-25'
 slug: investors-crypto-space
 categories: ["Takeaway"]

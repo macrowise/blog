@@ -1,6 +1,7 @@
 ---
 title: Loans backed by crypto assets and their liquidity promise
 author: Diego Puerto
+role: Product at Macrowise
 date: '2019-02-25'
 slug: crypto-loans
 categories: ["Takeaway"]

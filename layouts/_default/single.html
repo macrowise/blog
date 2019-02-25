@@ -14,8 +14,14 @@
 	{{ end }}
 	<div class="container-sm">
 		<div class="post-author">
-			<p class="author-name"><strong>{{ .Params.author }}</strong></p>
-			<p class="post-date">{{ .Date.Format "January.2.2006" }}</p>
+			<img src="/images/authors/{{ .Params.author | urlize }}.jpg" alt="{{ .Params.author }}" class="author-photo">
+			<div class="author-info">
+				<p class="author-name"><strong>{{ .Params.author }}</strong></p>
+				{{ if .Params.role }}
+					<p class="author-role">{{ .Params.role }}</p>
+				{{ end }}
+				<p class="post-date"><small>{{ .Date.Format "January.2.2006" }}</small></p>
+			</div>
 		</div>
 	</div>
 	<div class="post-reading-time">

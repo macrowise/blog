@@ -1,6 +1,7 @@
 ---
 title: Blockchain and the reinvention of liberal democracies 
 author: Guillermo Valencia A.
+role: Co-founder at Macrowise
 date: '2019-02-25'
 slug: blockchain-reinvention-liberal-democracies 
 categories: ["Provoking Thinking"]

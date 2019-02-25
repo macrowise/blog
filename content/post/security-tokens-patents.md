@@ -1,6 +1,7 @@
 ---
 title: Security tokens and the promise to democratize the patents industry
 author: Diego Puerto
+role: Product at Macrowise
 date: '2019-02-25'
 slug: security-tokens-patents
 categories: ["Takeaway"]

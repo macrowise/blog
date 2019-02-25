@@ -1,6 +1,7 @@
 ---
 title: How Long Will the Crypto Winter Last?
 author: Guillermo Valencia A.
+role: Co-founder at Macrowise
 date: '2019-02-25'
 slug: how-long-will-crypto-winter-last
 categories: ["Provoking Thinking"]

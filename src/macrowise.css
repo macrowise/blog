@@ -372,8 +372,21 @@ a {
 }
 
 .post-author {
-	margin-bottom: 20px;
+	align-items: center;
+	display: flex;
 	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.author-photo {
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	filter: grayscale(1);
+}
+
+.author-info {
+	margin-left: 20px;
 }
 
 .post-content {
@@ -446,12 +459,12 @@ a {
 
 .tags {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .tag {
 	background: #E23B3B;
 	border-radius: 5px;
-	font-style: italic;
 	margin: 0 10px 10px 0;
 	padding: 5px 10px;
 }
@@ -468,12 +481,13 @@ a {
 .source-item {
 	align-items: flex-start;
 	display: flex;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
+	font-size: 18px;
+	letter-spacing: -0.5px;
 }
 
 .source-item a {
 	color: #2A2A2A;
-	font-style: italic;
 }
 
 .source-item-bullet {
