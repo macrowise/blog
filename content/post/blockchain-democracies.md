@@ -4,7 +4,7 @@ author: Guillermo Valencia A.
 date: '2019-02-25'
 slug: blockchain-reinvention-liberal-democracies 
 categories: ["Provoking Thinking"]
-tags: []
+tags: ["Democracy", "Blockchain"]
 images:
 - /images/cryptocurrency-3424626_1280.jpg
 sources:
