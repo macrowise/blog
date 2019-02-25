@@ -23,6 +23,8 @@ sources:
   - name: What is an Initial Coin Offering?
     url: https://www.youtube.com/watch?v=iyuZ_bCQeIE
 companies:
+  - TRON (TRX)
+  - Bittorrent
 description: Initial Coin Offerings (ICO) are in a time of uncertainty. Regulators taking a close look on all of the offerings under the ICO umbrella.
 ---
 
