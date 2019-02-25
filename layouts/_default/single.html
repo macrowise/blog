@@ -1,4 +1,9 @@
 {{ define "main" }}
+	<div id="fb-root"></div>
+	<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+	<script>
+		window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f)};return t}(document,"script","twitter-wjs"))
+	</script>
 	{{ if .Params.images }}
 		<div class="post-header background" style="background-image: url({{ index .Params.images 0 }})">
 			<div class="post-title my-auto-post container-sm">
@@ -91,6 +96,14 @@
 				</div>
 			</div>
 		{{ end }}
+		<div class="post-section">
+			<h2 class="post-section-title text-blue">Share</h2>
+			<div class="share">
+				<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-url="{{ .Permalink }}" data-text="{{ .Title }}" data-size="large">Tweet</a>
+				<div style="padding: 0 5px"></div>
+				<div class="fb-share-button" data-href="{{.Permalink}}" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}" class="fb-xfbml-parse-ignore">Share</a></div>
+			</div>
+		</div>
 		{{ template "_internal/disqus.html" . }}
 	</div>
 {{ end }}

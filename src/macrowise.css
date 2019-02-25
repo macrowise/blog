@@ -457,6 +457,11 @@ a {
 	width: 20px;
 }
 
+.share {
+	display: flex;
+	align-items: center;
+}
+
 .tags {
 	display: flex;
 	flex-wrap: wrap;
