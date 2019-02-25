@@ -1,7 +1,7 @@
 ---
 title: Blockchain and the reinvention of liberal democracies 
 author: Guillermo Valencia A.
-date: '2019-02-22'
+date: '2019-02-25'
 slug: blockchain-reinvention-liberal-democracies 
 categories: ["Provoking Thinking"]
 tags: []
@@ -26,7 +26,7 @@ sources:
   - name: TED Talk - How blockchain is changing business and money
     url: https://www.youtube.com/watch?v=Pl8OlkkwRpc
   
-description: The answers to the current challenges of democracy are not nationalism or more liberalism, but the updating of our mechanism to reach consensus.Technology will reshape the democracy of masses.
+description: The answers to the current challenges of democracy are not nationalism or more liberalism, but the updating of our mechanism to reach consensus. Technology will reshape the democracy of masses.
 ---
 The future is rarely linear or incremental. What reshapes history will always surprise us.
 Finding the next big thing remains obscure and elusive for the vast majority of people. By definition, the next big thing is contrarian to the dominant belief of certain societies.

@@ -1,7 +1,7 @@
 ---
 title: Security tokens and the promise to democratize the patents industry
 author: Diego Puerto
-date: '2019-02-11'
+date: '2019-02-25'
 slug: security-tokens-patents
 categories: ["Takeaway"]
 tags: ["Custody","Loans"]

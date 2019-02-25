@@ -1,7 +1,7 @@
 ---
 title: Loans backed by crypto assets and their liquidity promise
 author: Diego Puerto
-date: '2019-02-11'
+date: '2019-02-25'
 slug: crypto-loans
 categories: ["Takeaway"]
 tags: []

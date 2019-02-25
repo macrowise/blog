@@ -1,7 +1,7 @@
 ---
 title: Institutional investors entry to the crypto space
 author: Diego Puerto
-date: '2019-02-11'
+date: '2019-02-25'
 slug: investors-crypto-space
 categories: ["Takeaway"]
 tags: []
