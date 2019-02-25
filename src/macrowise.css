@@ -59,8 +59,8 @@ a {
 }
 
 .my-auto {
-	margin-bottom: 10%;
-	margin-top: 22%;
+	margin-bottom: 5%;
+	margin-top: 25%;
 }
 
 .my-auto-post {
@@ -600,8 +600,8 @@ a {
 
 	.home-description {
 		font-size: 25px;
-		padding-left: 40%;
-		padding-right: 14%;
+		padding-left: 52%;
+		padding-right: 7%;
 	}
 
 	.sources {
@@ -631,3 +631,4 @@ a {
 	.my-auto {
 	    margin-top: 60%;
 	}
+}
