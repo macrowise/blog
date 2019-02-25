@@ -46,7 +46,7 @@ a {
 .container,
 .container-sm {
 	margin: 0 auto;
-	width: 90%;
+	width: 70%;
 }
 
 .background {
@@ -59,10 +59,8 @@ a {
 }
 
 .my-auto {
-	margin-bottom: 80px;
-	margin-top: 30%;
-	margin-right: 20%;
-	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-top: 22%;
 }
 
 .my-auto-post {
@@ -575,7 +573,7 @@ a {
 
 	.home-description {
 		font-size: 20px;
-		text-align: right;
+		text-align: left;
 	}
 
 	.post-title {
@@ -602,7 +600,8 @@ a {
 
 	.home-description {
 		font-size: 25px;
-		padding-left: 30%;
+		padding-left: 40%;
+		padding-right: 14%;
 	}
 
 	.sources {
@@ -627,3 +626,8 @@ a {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.my-auto {
+	    margin-top: 60%;
+	}
