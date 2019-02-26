@@ -3,6 +3,7 @@ title = "Macrowise Blog"
 publishDir = "docs"
 disqusShortname = "macrowise"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+googleAnalytics = "UA-135128710-1"
 
 [permalinks]
 	posts = "/:section/:slug"
